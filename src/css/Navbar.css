@@ -1,6 +1,6 @@
-/* General Navbar Styling */
+
 .navbar {
-    background-color: #121212; /* Dark background */
+    background-color: #121212; 
     padding: 15px 20px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Navbar Container */
+
   .nav-container {
     width: 100%;
     max-width: 1200px;
@@ -17,7 +17,7 @@
     align-items: center;
   }
   
-  /* Logo */
+
   .logo {
     font-size: 1.8rem;
     font-weight: bold;
@@ -25,7 +25,7 @@
     cursor: pointer;
   }
   
-  /* Nav Links */
+
   .nav-links {
     display: flex;
     list-style: none;
@@ -44,12 +44,12 @@
     transition: color 0.3s ease-in-out;
   }
   
-  /* Hover effect */
+ 
   .nav-links a:hover {
-    color: #f4a261; /* Highlight color */
+    color: #f4a261;
   }
   
-  /* Toggle Button for Mobile */
+
   .toggle-button {
     font-size: 1.8rem;
     background: none;
@@ -59,7 +59,7 @@
     display: none;
   }
   
-  /* Responsive Navbar */
+ 
   @media (max-width: 768px) {
     .toggle-button {
       display: block;
